@@ -1,0 +1,95 @@
+.flex-container {
+  display: flex;
+  background-color: rgba(7, 79, 82, 0.753);
+  padding-top: 20px;
+  align-self:center;
+  flex-direction:row;
+ 
+}
+
+.flex-container > div {
+  background-color: #d1d1d1;
+  margin: 10px;
+  padding: 20px;
+  padding-top: 20px;
+  font-size: 20px;
+  width:min-content;
+  align-self:auto;
+  height: fit-content;
+  width: fit-content;
+}
+
+.float-left{
+
+  font-family: "Verdana", sans-serif;
+}
+body {background-color: #0e3275;}
+
+
+td{
+  padding: 0.5em; 
+  padding-right: 50px;
+  color: rgba(0, 0, 0, 0.452);
+  font-size: 20px;
+  font-weight: bold;
+  
+}
+h1{
+  
+  display: block;
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.452);
+  font-weight: bold;
+  padding-bottom: 10px;
+  background-color: cadetblue;
+
+}
+h2{
+  display: block;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  
+
+}
+
+
+h3{
+ 
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+
+}
+
+h4{
+  
+  font-size: 20px;
+  color: rgb(255, 251, 4);
+  font-weight: bold;
+
+}
+.card{
+  align-self:center;
+  background-color: #087c73;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 1500px;
+
+}
+p{
+  
+  font-size: 20px;
+  color: rgb(255, 0, 0);
+  font-weight: bold;
+  padding-bottom: 10px;
+  padding-top: 10px;
+
+}
+h5{
+  font-size: 20px;
+  color: rgb(255, 0, 0);
+  font-weight: bold;
+  padding-bottom: 10px;
+  padding-top: 10px;
+
+}
