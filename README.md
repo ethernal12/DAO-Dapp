@@ -9,7 +9,7 @@ If the funding goal has not been reached as the deadline date expires, contribut
 
 configs:
 
-create .env file:
+- create .env file:
 
 MNEMONIC=""
 INFURAKOV=""
