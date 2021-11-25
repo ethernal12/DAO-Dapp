@@ -6,7 +6,7 @@ If the funding goal has not been reached as the deadline date expires, contribut
 3. Owner can create spending request proposals at any time.
 4. Only contributors can vote for proposals, as of now there is no vote weight and contributors can olnly vote once.
 5. Owner can finalize the proposals if it has sufficient #votes(> 1/2) and the goal funding goal has been reached.
-
+6. Once proposalis finalized the requested funds for proposal are sent to receiving address.
 configs:
 
 - create .env file:
