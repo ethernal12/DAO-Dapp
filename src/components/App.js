@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import CrowdFunding from "../build_ABIS/CrowdFunding.json";
 import { getWeb3 } from "./Utils.js";
 import Main from './Main'
+import ParticleSettings from "./ParticleSettings";
 
 const BigNumber = require('bignumber.js');
 function App() {
@@ -164,7 +165,7 @@ function App() {
   return (
 
     <div className="container">
-
+      <ParticleSettings/>
 
       {<Main
         accounts={accounts}
